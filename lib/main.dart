@@ -64,11 +64,6 @@ class _SearchMenuState extends State<SearchMenu> {
   }
 
   @override
-  void initState() {
-    super.initState();
-    fetch();
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
